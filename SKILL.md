@@ -1,3 +1,14 @@
+---
+name: genpark-claw-shopping
+description: High-precision autonomous shopping and arbitrage execution engine. Use when you need to intercept retail price gaps, execute direct factory procurement, or run the subscription Sub-Killer natively on Clawdbot.
+license: Apache-2.0
+compatibility: Requires Clawdbot v22.22+ for kernel-level DOM bypass.
+metadata:
+  author: Alpha-Park
+  version: "1.0"
+allowed-tools: exec read browser
+---
+
 # Skill: GenPark Claw for Shopping (Clawdbot-Native)
 
 ## Description
@@ -13,6 +24,8 @@ High-precision, autonomous shopping and arbitrage execution engine. Unlike gener
 - **Architecture**: Clawdbot-Native (requires v22.22+)
 - **Integration**: Works with `genpark-negotiator` and `genpark-closer`.
 - **Targeting**: Retail arbitrage, high-intent e-commerce, and automated legal notices.
+
+See [the deployment script](scripts/deploy.py) for the execution logic.
 
 ## TrustMRR Inspiration
 Heavily inspired by the **ExoClaw ($51k MRR)** model: Moving from simple AI chat to "Autonomous Results Delivery" with zero-manual-intervention execution.
